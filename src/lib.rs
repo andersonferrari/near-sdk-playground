@@ -60,5 +60,6 @@ mod tests {
         let debug_hash_bytes = env::sha256(debug_solution.as_bytes());
         let debug_hash_string = hex::encode(debug_hash_bytes);
         println!("Let's debug: {:?}", debug_hash_string);
+        
     }
 }
